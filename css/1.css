@@ -1,0 +1,149 @@
+/*-----------------------------------------------
+Theme: 404 - v9-dark-sky-white-text
+Version 1.0
+Author: EXSYthemes
+-----------------------------------------------
+1. BODY
+  - 1.1. Social Icon
+2. CONTENT
+  - 2.1. Section Error
+  - 2.2. Social Style
+4. RESPONSIVE
+-----------------------------------------------
+-----------------------------------------------*/
+
+@charset "UTF-8";
+
+/***********************************
+			/* 1. BODY */
+/***********************************/
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-text-size-adjust: none;
+}
+
+h1 {
+    background-image: linear-gradient(rgba(255,255,255,.3), rgba(255,255,255,.0));
+    height: 400px;
+    text-align: center;
+    padding-top: auto;
+    font-size: 120px;
+    margin: 30px auto;
+    border-style: hidden;
+    border-radius: 90px 90px 1500px 1500px;
+    color: white;
+}
+
+@media screen and (min-width: 600px) {
+    h1 {
+        width: 600px;
+        height: 300px;
+        padding-top: auto;
+    }
+}
+
+
+@media screen and (min-width: 1000px) {
+    h1 {
+        width: 1000px;
+        padding-top: 200px ;
+    }
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    line-height: 1;
+    background: #212121;
+}
+
+label {
+    cursor: pointer;
+}
+
+a {
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    background: transparent;
+    text-decoration: none;
+    color: #000;
+}
+
+input, select, button, textarea {
+    margin: 0;
+    font-size: 100%;
+}
+
+canvas{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1000;
+}
+
+
+
+button {
+    border: none;
+    padding: 0;
+    font-size: 0;
+    line-height: 0;
+    background: none;
+    cursor: pointer;
+}
+
+:focus {
+    outline: 0;
+}
+
+.clearfix:before, .clearfix:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    zoom: 1;
+}
+
+#terCanvas{
+    display: none;
+}
+
+
+#space{
+    width:100%
+}
+
+#warp{
+    position:absolute;
+    z-index:9;
+    bottom:0;
+    left:0;
+    right:0;
+    margin:20px auto;
+    color:rgba(209, 255, 255,1);
+    border:2px solid;
+    padding:1em;
+    width:10em;
+    text-align:center;
+    font-weight:700;
+    font-size:1.2em;
+    display:inline-block;
+    text-decoration:none;
+    background:rgba(0,0,0,0.8)
+}
+/***********************************
+			/* 2. END CONTENT */
+/***********************************/
+
+/***********************************
